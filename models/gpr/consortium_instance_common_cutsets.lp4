@@ -1,0 +1,66 @@
+2 { support("R_NDPK2_SA"); support("R_NDPK2_PA") } :- solution(1).
+2 { support("R_GLUTRS_3_SA"); support("R_GLUTRS_PA") } :- solution(2).
+2 { support("R_ADCS_SA"); support("R_ABZ1_PA") } :- solution(3).
+2 { support("R_MCOATA_SA"); support("R_MCT1_PA") } :- solution(4).
+2 { support("R_GLUTRR_SA"); support("R_GLUTRR_PA") } :- solution(5).
+2 { support("R_UMPK_SA"); support("R_UMPK_PA") } :- solution(6).
+2 { support("R_G1PACT_SA"); support("R_G1PACT_PA") } :- solution(7).
+2 { support("R_METAT_SA"); support("R_SAM1_PA") } :- solution(8).
+2 { support("R_GK1_SA"); support("R_GK1_PA") } :- solution(9).
+2 { support("R_CHORS_1_SA"); support("R_ARO2_PA") } :- solution(10).
+2 { support("R_PSCVT_1_SA"); support("R_PSCVT_PA") } :- solution(11).
+2 { support("R_DDPA_1_SA"); support("R_ARO3_PA") } :- solution(12).
+2 { support("R_DHQS_2_SA"); support("R_DHQS_PA") } :- solution(13).
+2 { support("R_DHQTi_SA"); support("R_DHQD_PA") } :- solution(14).
+2 { support("R_TRDR_SA"); support("R_TRDR_PA") } :- solution(15).
+2 { support("R_SHKK_1_SA"); support("R_SHKK_PA") } :- solution(16).
+2 { support("R_PGAMT_SA_rev"); support("R_PGAMT_PA_rev") } :- solution(17).
+2 { support("R_DMATT_SA"); support("R_DMATT_PA") } :- solution(18).
+2 { support("R_GRTT_SA"); support("R_GRTT_PA") } :- solution(19).
+2 { support("R_UAGCVT_1_SA"); support("R_UAGCVT_PA") } :- solution(20).
+2 { support("R_UAMAS_SA"); support("R_UAMAS_PA") } :- solution(21).
+2 { support("R_PGMT_SA_rev"); support("R_PGMT_PA_rev") } :- solution(22).
+2 { support("R_3OAS100_SA"); support("R_CEM1_4_PA") } :- solution(23).
+2 { support("R_UDCPDP_SA"); support("R_UDCPDP_PA") } :- solution(24).
+2 { support("R_3OAS120_2_SA"); support("R_CEM1_5_PA") } :- solution(25).
+2 { support("R_3OAR160_2_SA_rev"); support("R_HHDR7_PA_rev") } :- solution(26).
+2 { support("R_3OAS160_2_SA"); support("R_CEM1_7_PA") } :- solution(27).
+2 { support("R_EX_fe2_e_SA_rev"); support("R_EX_fe2_e_PA_rev") } :- solution(28).
+2 { support("R_ADCL_SA"); support("R_ADCL_PA") } :- solution(29).
+2 { support("R_EX_glyclt_e_SA"); support("R_EX_glyclt_e_PA") } :- solution(30).
+2 { support("R_UPPDC1_SA"); support("R_UPPDC1_PA") } :- solution(31).
+2 { support("R_HMBS_SA"); support("R_HEM3_PA") } :- solution(32).
+2 { support("R_PPBNGS_SA"); support("R_HEM2_PA") } :- solution(33).
+2 { support("R_DHFS_SA"); support("R_DHFS_PA") } :- solution(34).
+2 { support("R_UPP3S_SA"); support("R_HEM4_PA") } :- solution(35).
+2 { support("R_CYTK2_SA_rev"); support("R_CYTK2_PA_rev") } :- solution(36).
+4 { support("R_DHAD1_SA"); support("R_EX_val__L_e_SA_rev"); support("R_DHAD1_PA"); support("R_EX_val_L_e_PA_rev") } :- solution(37).
+4 { support("R_EX_leu__L_e_SA_rev"); support("R_IPPMIa_SA_rev"); support("R_IPPMIa_PA_rev"); support("R_EX_leu_L_e_PA_rev") } :- solution(38).
+4 { support("R_EX_leu__L_e_SA_rev"); support("R_IPPS_SA"); support("R_IPPS_PA"); support("R_EX_leu_L_e_PA_rev") } :- solution(39).
+4 { support("R_EX_leu__L_e_SA_rev"); support("R_LEUTA_SA_rev"); support("R_LEUTA_PA_rev"); support("R_EX_leu_L_e_PA_rev") } :- solution(40).
+4 { support("R_ACHBS_SA"); support("R_EX_ile__L_e_SA_rev"); support("R_ACHBS_PA"); support("R_EX_ile_L_e_PA_rev") } :- solution(41).
+4 { support("R_CHORM_SA"); support("R_EX_phe__L_e_SA_rev"); support("R_ARO7_PA"); support("R_EX_phe_L_e_PA_rev") } :- solution(42).
+4 { support("R_EX_trp__L_e_SA_rev"); support("R_PRAIi_SA"); support("R_PRAI_PA"); support("R_EX_trp_L_e_PA_rev") } :- solution(43).
+4 { support("R_EX_his__L_e_SA_rev"); support("R_IG3PS_SA"); support("R_IG3PS_PA"); support("R_EX_his_L_e_PA_rev") } :- solution(44).
+4 { support("R_PHEt2r_SA"); support("R_PPNDH_SA"); support("R_PHEt2_PA"); support("R_PHA2_PA") } :- solution(45).
+4 { support("R_EX_his__L_e_SA_rev"); support("R_PRMICI_SA"); support("R_PRMICI_PA"); support("R_EX_his_L_e_PA_rev") } :- solution(46).
+4 { support("R_EX_ile__L_e_SA_rev"); support("R_KARA2_SA"); support("R_KARA2_PA"); support("R_EX_ile_L_e_PA_rev") } :- solution(47).
+4 { support("R_EX_phe__L_e_SA_rev"); support("R_PPNDH_SA"); support("R_PHA2_PA"); support("R_EX_phe_L_e_PA_rev") } :- solution(48).
+4 { support("R_ATPPRT_SA"); support("R_EX_his__L_e_SA_rev"); support("R_HIS1_PA"); support("R_EX_his_L_e_PA_rev") } :- solution(49).
+4 { support("R_CHORM_SA"); support("R_PHEt2r_SA"); support("R_PHEt2_PA"); support("R_ARO7_PA") } :- solution(50).
+4 { support("R_EX_trp__L_e_SA_rev"); support("R_IGPS_SA"); support("R_IGPS_PA"); support("R_EX_trp_L_e_PA_rev") } :- solution(51).
+4 { support("R_IGPS_SA"); support("R_TRPt2r_SA"); support("R_TRPt2_PA"); support("R_IGPS_PA") } :- solution(52).
+4 { support("R_ANPRT_SA"); support("R_EX_trp__L_e_SA_rev"); support("R_TRP4_PA"); support("R_EX_trp_L_e_PA_rev") } :- solution(53).
+4 { support("R_ANPRT_SA"); support("R_TRPt2r_SA"); support("R_TRPt2_PA"); support("R_TRP4_PA") } :- solution(54).
+4 { support("R_KAS14_SA"); support("R_KAS15_SA"); support("R_KAS14_PA"); support("R_KAS15_PA") } :- solution(55).
+4 { support("R_EX_his__L_e_SA_rev"); support("R_IGPDH_SA"); support("R_IGPDH_PA"); support("R_EX_his_L_e_PA_rev") } :- solution(56).
+4 { support("R_EX_his__L_e_SA_rev"); support("R_HISTP_1_SA"); support("R_HIS2_PA"); support("R_EX_his_L_e_PA_rev") } :- solution(57).
+4 { support("R_PRAIi_SA"); support("R_TRPt2r_SA"); support("R_TRPt2_PA"); support("R_PRAI_PA") } :- solution(58).
+4 { support("R_EX_his__L_e_SA_rev"); support("R_PRATPP_1_SA"); support("R_HIS4_1_PA"); support("R_EX_his_L_e_PA_rev") } :- solution(59).
+4 { support("R_EX_phe__L_e_SA_rev"); support("R_PHETA1_SA_rev"); support("R_ARO9_1_PA_rev"); support("R_EX_phe_L_e_PA_rev") } :- solution(60).
+4 { support("R_DHAD2_SA"); support("R_EX_ile__L_e_SA_rev"); support("R_DHAD3_PA"); support("R_EX_ile_L_e_PA_rev") } :- solution(61).
+4 { support("R_EX_his__L_e_SA_rev"); support("R_PRAMPC_SA"); support("R_HIS4_2_PA"); support("R_EX_his_L_e_PA_rev") } :- solution(62).
+4 { support("R_RNDR3_SA"); support("R_RNTR3_SA"); support("R_RNDR3_PA"); support("R_RNTR3_PA") } :- solution(63).
+4 { support("R_PHETA1_SA_rev"); support("R_PHEt2r_SA"); support("R_ARO9_1_PA_rev"); support("R_PHEt2_PA") } :- solution(64).
+6 { support("R_ACOATA_SA"); support("R_KAS15_SA"); support("R_MACPD_SA"); support("R_ACOATA_PA"); support("R_MACPD_PA"); support("R_KAS15_PA") } :- solution(65).
+{ solution(1..65) }.

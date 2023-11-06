@@ -1,0 +1,6 @@
+[submodule "mparser"]
+	path = mparser
+	url = https://github.com/maxm4/mparser
+[submodule "aspefm"]
+	path = aspefm
+	url = https://github.com/maxm4/aspefm

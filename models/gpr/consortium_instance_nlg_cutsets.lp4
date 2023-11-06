@@ -1,0 +1,268 @@
+1 { support("R_RPI_SA_rev") } :- solution(1).
+1 { support("R_ARGDC_SA") } :- solution(2).
+1 { support("R_AGMT_SA") } :- solution(3).
+1 { support("R_GF6PTA_SA") } :- solution(4).
+1 { support("R_AKGDH_SA") } :- solution(5).
+1 { support("R_HMGCOAR_SA") } :- solution(6).
+1 { support("R_HMGCOAS_SA") } :- solution(7).
+1 { support("R_TMDS_SA") } :- solution(8).
+2 { support("R_EX_glc__D_e_SA_rev"); support("R_TPI_SA_rev") } :- solution(9).
+2 { support("R_ENO_SA_rev"); support("R_GLCpts_SA") } :- solution(10).
+2 { support("R_GAPDy_SA"); support("R_GLCpts_SA") } :- solution(11).
+2 { support("R_FBP_SA"); support("R_GLCpts_SA") } :- solution(12).
+2 { support("R_G3PD1ir_SA"); support("R_G3PD2_SA") } :- solution(13).
+2 { support("R_ADSS_SA"); support("R_EX_ade_e_SA_rev") } :- solution(14).
+2 { support("R_ADSS_SA"); support("R_ADEt2r_SA") } :- solution(15).
+2 { support("R_GLCpts_SA"); support("R_PPCK_SA") } :- solution(16).
+2 { support("R_EX_glc__D_e_SA_rev"); support("R_PGK_SA") } :- solution(17).
+2 { support("R_EX_glc__D_e_SA_rev"); support("R_GAPDy_SA") } :- solution(18).
+2 { support("R_FUM_SA"); support("R_EX_ade_e_SA_rev") } :- solution(19).
+2 { support("R_EX_glc__D_e_SA_rev"); support("R_FBA_SA_rev") } :- solution(20).
+2 { support("R_PGK_SA_rev"); support("R_PPCK_SA") } :- solution(21).
+2 { support("R_GUAPRT_SA"); support("R_IMPD_SA") } :- solution(22).
+2 { support("R_FUM_SA"); support("R_ADEt2r_SA") } :- solution(23).
+2 { support("R_EX_glc__D_e_SA_rev"); support("R_FBP_SA") } :- solution(24).
+2 { support("R_EX_gln__L_e_SA_rev"); support("R_GLNS_SA") } :- solution(25).
+2 { support("R_EX_glc__D_e_SA_rev"); support("R_PPCK_SA") } :- solution(26).
+2 { support("R_ENO_SA"); support("R_PPCK_SA") } :- solution(27).
+2 { support("R_PGM_SA_rev"); support("R_PPCK_SA") } :- solution(28).
+2 { support("R_PGL_SA"); support("R_TKT2_SA_rev") } :- solution(29).
+2 { support("R_PGL_SA"); support("R_RPE_SA_rev") } :- solution(30).
+2 { support("R_EX_glc__D_e_SA_rev"); support("R_ENO_SA_rev") } :- solution(31).
+2 { support("R_GND_SA"); support("R_RPE_SA_rev") } :- solution(32).
+2 { support("R_EX_glc__D_e_SA_rev"); support("R_PGM_SA") } :- solution(33).
+2 { support("R_GLCpts_SA"); support("R_PGK_SA") } :- solution(34).
+2 { support("R_ADSL1r_SA"); support("R_ADEt2r_SA") } :- solution(35).
+2 { support("R_PPCK_SA"); support("R_TPI_SA") } :- solution(36).
+2 { support("R_ADSL1r_SA"); support("R_EX_ade_e_SA_rev") } :- solution(37).
+2 { support("R_GND_SA"); support("R_TKT2_SA_rev") } :- solution(38).
+2 { support("R_EX_arg__L_e_SA_rev"); support("R_FUM_SA") } :- solution(39).
+2 { support("R_EX_arg__L_e_SA_rev"); support("R_OCBT_2_SA") } :- solution(40).
+2 { support("R_GAPD_1_SA"); support("R_PPCK_SA") } :- solution(41).
+2 { support("R_ACGK_1_SA"); support("R_EX_arg__L_e_SA_rev") } :- solution(42).
+2 { support("R_AGPR_SA_rev"); support("R_EX_arg__L_e_SA_rev") } :- solution(43).
+2 { support("R_ARGSL_SA"); support("R_EX_arg__L_e_SA_rev") } :- solution(44).
+2 { support("R_ARGSS2_SA"); support("R_EX_arg__L_e_SA_rev") } :- solution(45).
+2 { support("R_ALAR_SA"); support("R_EX_ala__L_e_SA_rev") } :- solution(46).
+2 { support("R_GLCpts_SA"); support("R_TPI_SA_rev") } :- solution(47).
+2 { support("R_ACOTA_SA_rev"); support("R_EX_arg__L_e_SA_rev") } :- solution(48).
+2 { support("R_GLCpts_SA"); support("R_PGM_SA") } :- solution(49).
+2 { support("R_G6PBDH_SA"); support("R_RPE_SA_rev") } :- solution(50).
+2 { support("R_GUAt2r_SA"); support("R_IMPD_SA") } :- solution(51).
+2 { support("R_FBA_SA_rev"); support("R_GLCpts_SA") } :- solution(52).
+2 { support("R_G6PBDH_SA"); support("R_TKT2_SA_rev") } :- solution(53).
+2 { support("R_EX_gua_e_SA_rev"); support("R_IMPD_SA") } :- solution(54).
+2 { support("R_GLNS_SA"); support("R_GLN_NAct_SA") } :- solution(55).
+3 { support("R_ASPCT_2_SA"); support("R_PYNP1_1_SA_rev"); support("R_UPPRT_SA") } :- solution(56).
+3 { support("R_CTPS1_SA"); support("R_CTPS2_SA"); support("R_PYNP1_1_SA_rev") } :- solution(57).
+3 { support("R_ASPCT_2_SA"); support("R_EX_ura_e_SA_rev"); support("R_PYNP1_1_SA_rev") } :- solution(58).
+3 { support("R_FBA_SA"); support("R_PFK_4_SA"); support("R_PPCK_SA") } :- solution(59).
+3 { support("R_FBA3_SA"); support("R_PFK_SA"); support("R_PPCK_SA") } :- solution(60).
+3 { support("R_OMPDC_SA"); support("R_PYNP1_1_SA_rev"); support("R_UPPRT_SA") } :- solution(61).
+3 { support("R_OMPDC_SA"); support("R_PYNP1_1_SA_rev"); support("R_URAt2_SA") } :- solution(62).
+3 { support("R_CSNt2_SA"); support("R_ORPT_SA_rev"); support("R_UPPRT_SA") } :- solution(63).
+3 { support("R_FBA_SA_rev"); support("R_PFK_SA"); support("R_LTAdtarO_SA") } :- solution(64).
+3 { support("R_EX_csn_e_SA_rev"); support("R_OMPDC_SA"); support("R_URAt2_SA") } :- solution(65).
+3 { support("R_ASPCT_2_SA"); support("R_EX_csn_e_SA_rev"); support("R_URAt2_SA") } :- solution(66).
+3 { support("R_CTPS1_SA"); support("R_CTPS2_SA"); support("R_EX_csn_e_SA_rev") } :- solution(67).
+3 { support("R_EX_csn_e_SA_rev"); support("R_ORPT_SA_rev"); support("R_URAt2_SA") } :- solution(68).
+3 { support("R_ASPCT_2_SA"); support("R_EX_csn_e_SA_rev"); support("R_EX_ura_e_SA_rev") } :- solution(69).
+3 { support("R_ASPCT_2_SA"); support("R_EX_csn_e_SA_rev"); support("R_UPPRT_SA") } :- solution(70).
+3 { support("R_EX_csn_e_SA_rev"); support("R_OMPDC_SA"); support("R_UPPRT_SA") } :- solution(71).
+3 { support("R_FBA_SA"); support("R_FBA3_SA"); support("R_PPCK_SA") } :- solution(72).
+3 { support("R_DHORTS_SA_rev"); support("R_PYNP1_1_SA_rev"); support("R_UPPRT_SA") } :- solution(73).
+3 { support("R_DHORTS_SA_rev"); support("R_EX_ura_e_SA_rev"); support("R_PYNP1_1_SA_rev") } :- solution(74).
+3 { support("R_DHORTS_SA_rev"); support("R_PYNP1_1_SA_rev"); support("R_URAt2_SA") } :- solution(75).
+3 { support("R_CSNt2_SA"); support("R_DHORTS_SA_rev"); support("R_UPPRT_SA") } :- solution(76).
+3 { support("R_ASPCT_2_SA"); support("R_PYNP1_1_SA_rev"); support("R_URAt2_SA") } :- solution(77).
+3 { support("R_ARGN_SA_rev"); support("R_UREA_SA"); support("R_UREAt_SA_rev") } :- solution(78).
+3 { support("R_DHORTS_SA_rev"); support("R_EX_csn_e_SA_rev"); support("R_URAt2_SA") } :- solution(79).
+3 { support("R_EX_ura_e_SA_rev"); support("R_OMPDC_SA"); support("R_PYNP1_1_SA_rev") } :- solution(80).
+3 { support("R_CSNt2_SA"); support("R_EX_ura_e_SA_rev"); support("R_OMPDC_SA") } :- solution(81).
+3 { support("R_CSNt2_SA"); support("R_OMPDC_SA"); support("R_URAt2_SA") } :- solution(82).
+3 { support("R_ORPT_SA_rev"); support("R_PYNP1_1_SA_rev"); support("R_UPPRT_SA") } :- solution(83).
+3 { support("R_ASPCT_2_SA"); support("R_CSNt2_SA"); support("R_UPPRT_SA") } :- solution(84).
+3 { support("R_ASPCT_2_SA"); support("R_CSNt2_SA"); support("R_URAt2_SA") } :- solution(85).
+3 { support("R_CSNt2_SA"); support("R_ORPT_SA_rev"); support("R_URAt2_SA") } :- solution(86).
+3 { support("R_CBMKr2_SA"); support("R_CBPS_1_SA"); support("R_EX_arg__L_e_SA_rev") } :- solution(87).
+3 { support("R_DHORTS_SA_rev"); support("R_EX_csn_e_SA_rev"); support("R_EX_ura_e_SA_rev") } :- solution(88).
+3 { support("R_DHORTS_SA_rev"); support("R_EX_csn_e_SA_rev"); support("R_UPPRT_SA") } :- solution(89).
+3 { support("R_CSNt2_SA"); support("R_EX_ura_e_SA_rev"); support("R_ORPT_SA_rev") } :- solution(90).
+3 { support("R_EX_ura_e_SA_rev"); support("R_ORPT_SA_rev"); support("R_PYNP1_1_SA_rev") } :- solution(91).
+3 { support("R_ORPT_SA_rev"); support("R_PYNP1_1_SA_rev"); support("R_URAt2_SA") } :- solution(92).
+3 { support("R_ACGK_1_SA"); support("R_ARGORNt7_SA"); support("R_ARGt5r_SA") } :- solution(93).
+3 { support("R_ACOTA_SA_rev"); support("R_ARGORNt7_SA"); support("R_ARGt5r_SA") } :- solution(94).
+3 { support("R_ARGORNt7_SA"); support("R_ARGSL_SA"); support("R_ARGt5r_SA") } :- solution(95).
+3 { support("R_ARGORNt7_SA"); support("R_ARGt5r_SA"); support("R_OCBT_2_SA") } :- solution(96).
+3 { support("R_ARGORNt7_SA"); support("R_ARGSS2_SA"); support("R_ARGt5r_SA") } :- solution(97).
+3 { support("R_AGPR_SA_rev"); support("R_ARGORNt7_SA"); support("R_ARGt5r_SA") } :- solution(98).
+3 { support("R_CSNt2_SA"); support("R_OMPDC_SA"); support("R_UPPRT_SA") } :- solution(99).
+3 { support("R_ARGORNt7_SA"); support("R_ARGt5r_SA"); support("R_FUM_SA") } :- solution(100).
+3 { support("R_ALAR_SA"); support("R_ALAt2r_SA"); support("R_ALAt4_SA") } :- solution(101).
+3 { support("R_GUAt2r_SA"); support("R_IMPC_SA_rev"); support("R_HXPRT_SA") } :- solution(102).
+3 { support("R_AICART_SA"); support("R_GUAt2r_SA"); support("R_HXPRT_SA") } :- solution(103).
+3 { support("R_EX_gua_e_SA_rev"); support("R_PRASCSi_SA"); support("R_EX_ade_e_SA_rev") } :- solution(104).
+3 { support("R_GMPR_SA"); support("R_PRASCSi_SA"); support("R_EX_ade_e_SA_rev") } :- solution(105).
+3 { support("R_AICART_SA"); support("R_GUAPRT_SA"); support("R_EX_ade_e_SA_rev") } :- solution(106).
+3 { support("R_ADSL2r_SA"); support("R_GUAPRT_SA"); support("R_EX_ade_e_SA_rev") } :- solution(107).
+3 { support("R_GUAt2r_SA"); support("R_PRASCSi_SA"); support("R_EX_ade_e_SA_rev") } :- solution(108).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_RU5PS_SA") } :- solution(109).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_MALCOAM_SA") } :- solution(110).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_MALACPD_SA") } :- solution(111).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_HGLACPHL_SA") } :- solution(112).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_KGLACPR_SA") } :- solution(113).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_EGLACPR_SA") } :- solution(114).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_DM_amob_c_SA") } :- solution(115).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_HPIMHL_SA") } :- solution(116).
+3 { support("R_ALCD1_SA"); support("R_BTNt_SA"); support("R_BTNTe_SA") } :- solution(117).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_KPIMD_SA") } :- solution(118).
+3 { support("R_ADSL2r_SA"); support("R_GMPR_SA"); support("R_EX_ade_e_SA_rev") } :- solution(119).
+3 { support("R_GUAPRT_SA"); support("R_IMPC_SA_rev"); support("R_EX_ade_e_SA_rev") } :- solution(120).
+3 { support("R_ADSL2r_SA"); support("R_EX_gua_e_SA_rev"); support("R_EX_ade_e_SA_rev") } :- solution(121).
+3 { support("R_AH6PI_SA"); support("R_BTNt_SA"); support("R_BTNTe_SA") } :- solution(122).
+3 { support("R_ADA_SA"); support("R_IMPC_SA_rev"); support("R_GMPR_SA") } :- solution(123).
+3 { support("R_ADA_SA"); support("R_GUAPRT_SA"); support("R_IMPC_SA_rev") } :- solution(124).
+3 { support("R_AICART_SA"); support("R_ADA_SA"); support("R_GUAPRT_SA") } :- solution(125).
+3 { support("R_GUAPRT_SA"); support("R_PRASCSi_SA"); support("R_EX_ade_e_SA_rev") } :- solution(126).
+3 { support("R_AICART_SA"); support("R_ADA_SA"); support("R_GMPR_SA") } :- solution(127).
+3 { support("R_ADA_SA"); support("R_GUAt2r_SA"); support("R_IMPC_SA_rev") } :- solution(128).
+3 { support("R_IMPC_SA_rev"); support("R_GMPR_SA"); support("R_EX_ade_e_SA_rev") } :- solution(129).
+3 { support("R_AMAOTr_SA"); support("R_BTNt_SA"); support("R_BTNTe_SA") } :- solution(130).
+3 { support("R_EX_gua_e_SA_rev"); support("R_IMPC_SA_rev"); support("R_EX_ade_e_SA_rev") } :- solution(131).
+3 { support("R_AICART_SA"); support("R_ADA_SA"); support("R_EX_gua_e_SA_rev") } :- solution(132).
+3 { support("R_GUAt2r_SA"); support("R_IMPC_SA_rev"); support("R_EX_ade_e_SA_rev") } :- solution(133).
+3 { support("R_ADA_SA"); support("R_EX_gua_e_SA_rev"); support("R_IMPC_SA_rev") } :- solution(134).
+3 { support("R_AICART_SA"); support("R_ADA_SA"); support("R_GUAt2r_SA") } :- solution(135).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_CHCOAL_1_SA") } :- solution(136).
+3 { support("R_DCMPDA_SA"); support("R_DURIK1_1_SA"); support("R_DUTPDP_1_SA") } :- solution(137).
+3 { support("R_AOXSr_SA"); support("R_BTNt_SA"); support("R_BTNTe_SA") } :- solution(138).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_DBTS_SA") } :- solution(139).
+3 { support("R_DHDPS_SA"); support("R_PROD2_SA"); support("R_SUCOAS_SA_rev") } :- solution(140).
+3 { support("R_DHDPRy_SA"); support("R_PROD2_SA"); support("R_SUCOAS_SA_rev") } :- solution(141).
+3 { support("R_PROD2_SA"); support("R_SDPTA_SA_rev"); support("R_SUCOAS_SA_rev") } :- solution(142).
+3 { support("R_DAPE_SA"); support("R_PROD2_SA"); support("R_SUCOAS_SA_rev") } :- solution(143).
+3 { support("R_PROD2_SA"); support("R_SDPDS_SA"); support("R_SUCOAS_SA_rev") } :- solution(144).
+3 { support("R_CHORM_SA"); support("R_G6PBDH_SA"); support("R_TKT1_SA_rev") } :- solution(145).
+3 { support("R_DAPDC_SA"); support("R_PROD2_SA"); support("R_SUCOAS_SA_rev") } :- solution(146).
+3 { support("R_ASAD_1_SA"); support("R_PROD2_SA"); support("R_SUCOAS_SA_rev") } :- solution(147).
+3 { support("R_CHORM_SA"); support("R_G6PBDH_SA"); support("R_TALA_SA_rev") } :- solution(148).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_KPIMR_SA") } :- solution(149).
+3 { support("R_FBA_SA"); support("R_PFK_4_SA"); support("R_TPI_SA_rev") } :- solution(150).
+3 { support("R_PFK_SA"); support("R_PFK_4_SA"); support("R_TPI_SA_rev") } :- solution(151).
+3 { support("R_FBA_SA"); support("R_FBA3_SA"); support("R_TPI_SA_rev") } :- solution(152).
+3 { support("R_CHORM_SA"); support("R_PGL_SA"); support("R_TALA_SA_rev") } :- solution(153).
+3 { support("R_FBA3_SA"); support("R_PFK_SA"); support("R_TPI_SA_rev") } :- solution(154).
+3 { support("R_CHORM_SA"); support("R_PGL_SA"); support("R_TKT1_SA_rev") } :- solution(155).
+3 { support("R_AICART_SA"); support("R_EX_gua_e_SA_rev"); support("R_EX_ade_e_SA_rev") } :- solution(156).
+3 { support("R_AICART_SA"); support("R_GUAt2r_SA"); support("R_EX_ade_e_SA_rev") } :- solution(157).
+3 { support("R_PROD2_SA"); support("R_SUCOAS_SA_rev"); support("R_THDPS_SA") } :- solution(158).
+3 { support("R_AICART_SA"); support("R_GMPR_SA"); support("R_EX_ade_e_SA_rev") } :- solution(159).
+3 { support("R_EX_gua_e_SA_rev"); support("R_IMPC_SA_rev"); support("R_HXPRT_SA") } :- solution(160).
+3 { support("R_AICART_SA"); support("R_GUAPRT_SA"); support("R_HXPRT_SA") } :- solution(161).
+3 { support("R_ACGS_SA"); support("R_EX_arg__L_e_SA_rev"); support("R_ORNTAC_SA") } :- solution(162).
+3 { support("R_GUAPRT_SA"); support("R_IMPC_SA_rev"); support("R_HXPRT_SA") } :- solution(163).
+3 { support("R_ACODA_SA"); support("R_EX_arg__L_e_SA_rev"); support("R_ORNTAC_SA") } :- solution(164).
+3 { support("R_AICART_SA"); support("R_EX_gua_e_SA_rev"); support("R_HXPRT_SA") } :- solution(165).
+3 { support("R_EX_csn_e_SA_rev"); support("R_EX_ura_e_SA_rev"); support("R_OMPDC_SA") } :- solution(166).
+3 { support("R_ARGN_SA_rev"); support("R_EX_urea_e_SA"); support("R_UREA_SA") } :- solution(167).
+3 { support("R_ADSL2r_SA"); support("R_GUAt2r_SA"); support("R_EX_ade_e_SA_rev") } :- solution(168).
+3 { support("R_GUAt2r_SA"); support("R_PRASCSi_SA"); support("R_ADEt2r_SA") } :- solution(169).
+3 { support("R_CSNt2_SA"); support("R_DHORTS_SA_rev"); support("R_URAt2_SA") } :- solution(170).
+3 { support("R_EX_gua_e_SA_rev"); support("R_PRASCSi_SA"); support("R_ADEt2r_SA") } :- solution(171).
+3 { support("R_ADSL2r_SA"); support("R_EX_gua_e_SA_rev"); support("R_ADEt2r_SA") } :- solution(172).
+3 { support("R_ADSL2r_SA"); support("R_GUAt2r_SA"); support("R_ADEt2r_SA") } :- solution(173).
+3 { support("R_ADSL2r_SA"); support("R_GUAPRT_SA"); support("R_ADEt2r_SA") } :- solution(174).
+3 { support("R_GMPR_SA"); support("R_PRASCSi_SA"); support("R_ADEt2r_SA") } :- solution(175).
+3 { support("R_CSNt2_SA"); support("R_CTPS1_SA"); support("R_CTPS2_SA") } :- solution(176).
+3 { support("R_ADSL2r_SA"); support("R_GMPR_SA"); support("R_ADEt2r_SA") } :- solution(177).
+3 { support("R_CSNt2_SA"); support("R_DHORTS_SA_rev"); support("R_EX_ura_e_SA_rev") } :- solution(178).
+3 { support("R_GUAPRT_SA"); support("R_PRASCSi_SA"); support("R_ADEt2r_SA") } :- solution(179).
+3 { support("R_GUAt2r_SA"); support("R_IMPC_SA_rev"); support("R_ADEt2r_SA") } :- solution(180).
+3 { support("R_EX_gua_e_SA_rev"); support("R_IMPC_SA_rev"); support("R_ADEt2r_SA") } :- solution(181).
+3 { support("R_GUAPRT_SA"); support("R_IMPC_SA_rev"); support("R_ADEt2r_SA") } :- solution(182).
+3 { support("R_AICART_SA"); support("R_GMPR_SA"); support("R_ADEt2r_SA") } :- solution(183).
+3 { support("R_IMPC_SA_rev"); support("R_GMPR_SA"); support("R_ADEt2r_SA") } :- solution(184).
+3 { support("R_AICART_SA"); support("R_GUAt2r_SA"); support("R_ADEt2r_SA") } :- solution(185).
+3 { support("R_AICART_SA"); support("R_EX_gua_e_SA_rev"); support("R_ADEt2r_SA") } :- solution(186).
+3 { support("R_AICART_SA"); support("R_GUAPRT_SA"); support("R_ADEt2r_SA") } :- solution(187).
+3 { support("R_BTNt_SA"); support("R_BTNTe_SA"); support("R_PIMR_SA") } :- solution(188).
+3 { support("R_PFK_SA"); support("R_PFK_4_SA"); support("R_PPCK_SA") } :- solution(189).
+3 { support("R_CHORM_SA"); support("R_GND_SA"); support("R_TALA_SA_rev") } :- solution(190).
+3 { support("R_RNDR1_SA"); support("R_RNTR1_SA"); support("R_PUNP2_1_SA_rev") } :- solution(191).
+3 { support("R_ASPCT_2_SA"); support("R_CSNt2_SA"); support("R_EX_ura_e_SA_rev") } :- solution(192).
+3 { support("R_EX_csn_e_SA_rev"); support("R_EX_ura_e_SA_rev"); support("R_ORPT_SA_rev") } :- solution(193).
+3 { support("R_EX_csn_e_SA_rev"); support("R_ORPT_SA_rev"); support("R_UPPRT_SA") } :- solution(194).
+3 { support("R_FBA_SA_rev"); support("R_FBA2_SA_rev"); support("R_PFK_SA") } :- solution(195).
+3 { support("R_ALCD19_SA_rev"); support("R_FBA_SA_rev"); support("R_PFK_SA") } :- solution(196).
+3 { support("R_ADKd_SA_rev"); support("R_DADK_SA_rev"); support("R_PUNP2_1_SA_rev") } :- solution(197).
+3 { support("R_CHORM_SA"); support("R_GND_SA"); support("R_TKT1_SA_rev") } :- solution(198).
+3 { support("R_ASPK_SA"); support("R_PROD2_SA"); support("R_SUCOAS_SA_rev") } :- solution(199).
+1 { support("R_TPI_PA") } :- solution(200).
+1 { support("R_ADE1_PA") } :- solution(201).
+1 { support("R_PRAIS_PA") } :- solution(202).
+1 { support("R_ADSL2_PA") } :- solution(203).
+1 { support("R_MTHFD_PA") } :- solution(204).
+1 { support("R_MTHFC_PA") } :- solution(205).
+1 { support("R_GFA1_PA") } :- solution(206).
+1 { support("R_ADE6_PA") } :- solution(207).
+1 { support("R_PRAGS_PA") } :- solution(208).
+1 { support("R_ADE4_PA") } :- solution(209).
+1 { support("R_AICART_PA") } :- solution(210).
+1 { support("R_IMPC_PA_rev") } :- solution(211).
+1 { support("R_RPI_PA_rev") } :- solution(212).
+2 { support("R_GCCb_PA"); support("R_GHMT_PA_rev") } :- solution(213).
+2 { support("R_NCAIRSM_PA"); support("R_AIRC1_PA") } :- solution(214).
+2 { support("R_GND_PA"); support("R_TKT2_PA") } :- solution(215).
+2 { support("R_PGM_PA"); support("R_EX_glc_D_e_PA_rev") } :- solution(216).
+2 { support("R_PGK_PA"); support("R_EX_glc_D_e_PA_rev") } :- solution(217).
+2 { support("R_GND_PA"); support("R_RPE_PA_rev") } :- solution(218).
+2 { support("R_ADE8_PA"); support("R_GART_PA") } :- solution(219).
+2 { support("R_GAPD_PA_rev"); support("R_EX_glc_D_e_PA_rev") } :- solution(220).
+2 { support("R_ENO_PA_rev"); support("R_EX_glc_D_e_PA_rev") } :- solution(221).
+2 { support("R_FBA_PA_rev"); support("R_EX_glc_D_e_PA_rev") } :- solution(222).
+2 { support("R_GCCa_PA"); support("R_GHMT_PA_rev") } :- solution(223).
+2 { support("R_ORNDC_PA"); support("R_ARGDC_PA") } :- solution(224).
+2 { support("R_GCCc_PA"); support("R_GHMT_PA_rev") } :- solution(225).
+3 { support("R_GND_PA"); support("R_GLCabc_PA"); support("R_FBA_PA_rev") } :- solution(226).
+3 { support("R_PYDXO_PA"); support("R_DHORD5_PA"); support("R_EX_o2_e_PA_rev") } :- solution(227).
+3 { support("R_ORNTA_PA_rev"); support("R_NACODA_PA_rev"); support("R_EX_arg_L_e_PA_rev") } :- solution(228).
+3 { support("R_PYDXO_PA"); support("R_DHORD5_PA"); support("R_O2t_PA") } :- solution(229).
+3 { support("R_PUTA_PA"); support("R_GLU5K_PA"); support("R_EX_arg_L_e_PA_rev") } :- solution(230).
+3 { support("R_GLU5K_PA"); support("R_EX_arg_L_e_PA_rev"); support("R_EX_pro_L_e_PA_rev") } :- solution(231).
+3 { support("R_GLUSy_PA"); support("R_GLNabc_PA"); support("R_GLN1_PA") } :- solution(232).
+3 { support("R_GLUSy_PA"); support("R_GLN1_PA"); support("R_EX_gln_L_e_PA_rev") } :- solution(233).
+3 { support("R_AGMT_PA"); support("R_ORNDC_PA"); support("R_CBMLPTAH_PA") } :- solution(234).
+3 { support("R_G5SD_PA"); support("R_ARGN_PA"); support("R_EX_pro_L_e_PA_rev") } :- solution(235).
+3 { support("R_G5SD_PA"); support("R_EX_arg_L_e_PA_rev"); support("R_EX_pro_L_e_PA_rev") } :- solution(236).
+3 { support("R_PUTA_PA"); support("R_G5SD_PA"); support("R_EX_arg_L_e_PA_rev") } :- solution(237).
+3 { support("R_DHORD5_PA"); support("R_PYDXK_PA_rev"); support("R_O2t_PA") } :- solution(238).
+3 { support("R_ORNTA_PA_rev"); support("R_ACODA_PA"); support("R_EX_arg_L_e_PA_rev") } :- solution(239).
+3 { support("R_DHORD5_PA"); support("R_PYDXK_PA_rev"); support("R_EX_o2_e_PA_rev") } :- solution(240).
+3 { support("R_AGMT_PA"); support("R_ORNDC_PA"); support("R_AGMTNDMN_PA") } :- solution(241).
+3 { support("R_FRD2_PA"); support("R_PYDXO_PA"); support("R_EX_o2_e_PA_rev") } :- solution(242).
+3 { support("R_FRD2_PA"); support("R_PYDXK_PA_rev"); support("R_EX_o2_e_PA_rev") } :- solution(243).
+3 { support("R_FRD2_PA"); support("R_PYDXK_PA_rev"); support("R_O2t_PA") } :- solution(244).
+3 { support("R_FRD2_PA"); support("R_PYDXO_PA"); support("R_O2t_PA") } :- solution(245).
+3 { support("R_FRD2_PA"); support("R_PYDAMK_PA"); support("R_O2t_PA") } :- solution(246).
+3 { support("R_ARG8_PA_rev"); support("R_ORNTA_PA_rev"); support("R_EX_arg_L_e_PA_rev") } :- solution(247).
+3 { support("R_G3PD_PA_rev"); support("R_GPD1_PA"); support("R_G3PD2_PA") } :- solution(248).
+3 { support("R_FRUpts2_PA"); support("R_FBP_PA"); support("R_EX_glc_D_e_PA_rev") } :- solution(249).
+3 { support("R_DHORD5_PA"); support("R_PYDAMK_PA"); support("R_O2t_PA") } :- solution(250).
+3 { support("R_GLCabc_PA"); support("R_GLCLCT_PA"); support("R_PGM_PA") } :- solution(251).
+3 { support("R_GAPD_PA_rev"); support("R_GLCabc_PA"); support("R_GLCLCT_PA") } :- solution(252).
+3 { support("R_GLCabc_PA"); support("R_GLCLCT_PA"); support("R_ENO_PA_rev") } :- solution(253).
+3 { support("R_GLCabc_PA"); support("R_GLCLCT_PA"); support("R_PGK_PA") } :- solution(254).
+3 { support("R_GLCabc_PA"); support("R_FBA_PA_rev"); support("R_RPE_PA") } :- solution(255).
+3 { support("R_GLCabc_PA"); support("R_TKT1_PA_rev"); support("R_FBA_PA_rev") } :- solution(256).
+3 { support("R_GLCabc_PA"); support("R_GLCLCT_PA"); support("R_FBA_PA_rev") } :- solution(257).
+3 { support("R_ARGN_PA"); support("R_GLU5K_PA"); support("R_EX_pro_L_e_PA_rev") } :- solution(258).
+3 { support("R_RPE_PA_rev"); support("R_PGL_PA"); support("R_EX_glc_D_e_PA_rev") } :- solution(259).
+3 { support("R_TKT2_PA"); support("R_PGL_PA"); support("R_EX_glc_D_e_PA_rev") } :- solution(260).
+3 { support("R_GLCLCT_PA"); support("R_RPE_PA_rev"); support("R_PGL_PA") } :- solution(261).
+3 { support("R_FRD2_PA"); support("R_PYDAMK_PA"); support("R_EX_o2_e_PA_rev") } :- solution(262).
+3 { support("R_GLCLCT_PA"); support("R_TKT2_PA"); support("R_PGL_PA") } :- solution(263).
+3 { support("R_F1PK_PA_rev"); support("R_FBP_PA"); support("R_EX_glc_D_e_PA_rev") } :- solution(264).
+3 { support("R_FRUpts_PA_rev"); support("R_FBP_PA"); support("R_EX_glc_D_e_PA_rev") } :- solution(265).
+3 { support("R_GLCabc_PA"); support("R_FBA_PA_rev"); support("R_TAL_PA") } :- solution(266).
+3 { support("R_DHORD5_PA"); support("R_PYDAMK_PA"); support("R_EX_o2_e_PA_rev") } :- solution(267).
+{ solution(1..267) }.

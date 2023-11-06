@@ -1,0 +1,1 @@
+:- 4 {cutset(R) : interest(R)}. 1 {cutset(R) : interest(R)} 3.

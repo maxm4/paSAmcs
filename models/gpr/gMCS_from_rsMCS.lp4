@@ -1,0 +1,71 @@
+%rsMCS are expressed as support atoms
+#heuristic solution(S). [1, false]
+#show solution/1.
+
+%rMCS are expressed as rMCS atoms
+#show gene/1.
+#show bound/1.
+
+%get minimal genes
+:- { gene(G); bound(B) } 0.
+:- 20 { gene(G); bound(B) }.
+#heuristic gene(G). [1, false]
+#heuristic bound(B). [1, false]
+
+%quotes are necessary here, parsed later in mgetter init
+#const pklfile="decomp_result.pkl".
+
+#script (python)
+
+import sys, time
+import pickle
+from typing import Optional, Sequence, cast
+
+from clingo.symbol import Number, String, SymbolType
+from clingo.solving import Model, SolveResult
+from clingo.control import Control
+from clingo.application import clingo_main, Application
+
+from natsort import natsorted
+
+class ModelGetter():
+
+    def show_cutsets(self, prg):
+        self.i = 0
+        self.cutsets = [str(atom.symbol.arguments[0].string) for atom in prg.symbolic_atoms.by_signature("cutset", 1)]
+        print("cutsets", self.cutsets)
+        self.genes = []
+        self.solutions = []
+        self.pklfile = str(prg.get_const('pklfile'))[1:-1]
+
+    def on_model(self, m):
+        self.i += 1
+        print("Answer:", self.i)
+        self.support = [str(atom.arguments[0].string) for atom in m.symbols(atoms=True) if atom.match("support", 1)]
+        print("support", natsorted(self.support), flush=True)
+        self.answer = [str(atom.arguments[0].string) for atom in m.symbols(atoms=True) if (atom.match("bound", 1) or atom.match("gene", 1))]
+        print("gene", natsorted(self.answer), flush=True)
+        self.solution = [str(atom.arguments[0].number) for atom in m.symbols(atoms=True) if atom.match("solution", 1)]
+        print("solution", natsorted(self.solution), flush=True)
+        self.genes.append(self.answer)
+        self.solutions.append(self.solution)
+
+    def save_gprs(self):
+        gpr_solutions = {}
+        for i, g in enumerate(self.genes):
+            sol = str(self.solutions[i])
+            if sol in gpr_solutions:
+                gpr_solutions[sol].append(g)
+            else:
+                gpr_solutions[sol] = [g]
+        with open(self.pklfile, 'wb') as f:
+            pickle.dump(gpr_solutions, f)
+
+def main(prg):
+    prg.ground([("base", [])])
+    mget = ModelGetter()
+    mget.show_cutsets(prg)
+    prg.solve(on_model=mget.on_model)
+    mget.save_gprs()
+
+#end.
