@@ -29,13 +29,13 @@ end = time.time()
 print(end-start)
 
 
-sols.save('cnapy_sols_new2.save')
+sols.save('cnapy_sols_new.save')
 
-f = open('cnapy_sols_new2.txt', 'w')
+f = open('cnapy_sols_new.txt', 'w')
 print(sols.get_strain_designs(), file=f)
 f.close()
 
 import pickle
-fb = open('cnapy_sols_new2.pkl', 'wb')
+fb = open('cnapy_sols_new.pkl', 'wb')
 pickle.dump(sols, fb)
 fb.close()

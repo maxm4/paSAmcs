@@ -12,19 +12,18 @@ parser.add_argument('--stop-criteria', type=int)
 
 parser.add_argument('--target-1')
 parser.add_argument('--target-2')
-parser.add_argument('--no-target-2', action='store_true')
+parser.add_argument('--enable-target-2', action='store_true')
 
 args = parser.parse_args()
 
 filename = args.filename if args.filename is not None else 'cobamp_solutions_new.txt'
-stopcri = int(args.stop_criteria) if args.stop_criteria is not None else 4000 # 3
+stopcri = int(args.stop_criteria) if args.stop_criteria is not None else 5000 # 3
 target1 = args.target_1 if args.target_1 is not None else 'rsub_52_494'
 target2 = args.target_2 if args.target_2 is not None else '' # 'rsub_494'
 sbml = args.sbml if args.sbml is not None else 'consortium_reduced_cobamp.xml'
 
-no_target_2 = True # args.no_target_2
-
-print(vars())
+print('Using default time limit: 1.5 days')
+print(args)
 
 f = open(filename, 'w')
 
@@ -32,7 +31,7 @@ model = cobra.io.read_sbml_model(sbml)
 
 ksefm = KShortestMCSEnumeratorWrapper(
     model=model,
-    target_flux_space_dict={target1: (1, None), target2: (1, None)} if args.no_target_2 else {target1: (1, None)},
+    target_flux_space_dict={target1: (1, None), target2: (1, None)} if args.enable_target_2 else {target1: (1, None)},
     target_yield_space_dict={},
     algorithm_type=KShortestMCSEnumeratorWrapper.ALGORITHM_TYPE_ITERATIVE, #POPULATE,
     stop_criteria=stopcri,
