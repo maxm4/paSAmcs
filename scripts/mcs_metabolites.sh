@@ -20,8 +20,8 @@ consortium_pa=../models/reduced/consortium_reduced_mcs_pa.lp4
 consortium_sa=../models/reduced/consortium_reduced_mcs_sa.lp4
 
 # if PA_NLG and SA_NLG not created
-unzip ../outputs/aspefm_pa_metabolites.zip # creates PA_NLG
-unzip ../outputs/aspefm_sa_metabolites.zip # creates SA_NLG
+unzip ../outputs/aspefm_consortium_pa_metabolites.zip # creates PA_NLG
+unzip ../outputs/aspefm_consortium_sa_metabolites.zip # creates SA_NLG
 
 PA_NLG=$PWD/PA_NLG/
 SA_NLG=$PWD/SA_NLG/
